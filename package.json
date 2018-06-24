@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/himanoa/night-star-lily/issues"
   },
-  "homepage": "https://github.com/himanoa/night-star-lily#readme"
+  "homepage": "https://github.com/himanoa/night-star-lily#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
 }
