@@ -1,5 +1,5 @@
 {
-  "name": "night-star-lily",
+  "name": "knight-star-lily",
   "version": "1.0.0",
   "description": "Lambda",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/himanoa/night-star-lily.git"
+    "url": "git+https://github.com/himanoa/knight-star-lily.git"
   },
   "author": "himanoa",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/himanoa/night-star-lily/issues"
+    "url": "https://github.com/himanoa/knight-star-lily/issues"
   },
-  "homepage": "https://github.com/himanoa/night-star-lily#readme",
+  "homepage": "https://github.com/himanoa/knight-star-lily#readme",
   "dependencies": {
     "dotenv": "^6.0.0",
     "flatten": "^1.0.2",

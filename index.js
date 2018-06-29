@@ -1,4 +1,4 @@
-const night = require("./lib/nightstarlilly");
+const knight = require("./lib/knightstarlilly");
 const key = require("./google.json");
 const { google } = require("googleapis");
 
@@ -13,13 +13,13 @@ async function main() {
   await jwt.authorize((err, auth) => {
     if (err) reject(err);
   });
-  const search = await night.search({
+  const search = await knight.search({
     consumerKey: process.env.CONSUMER_KEY,
     consumerSecret: process.env.CONSUMER_SECRET,
     accessToken: process.env.ACCESS_TOKEN,
     accessTokenSecret: process.env.ACCESS_TOKEN_SECRET
   });
-  night.registSchedule(jwt, search, process.env.CALENDAR_ID);
+  knight.registSchedule(jwt, search, process.env.CALENDAR_ID);
 }
 
 main().catch(err => console.error(err));
